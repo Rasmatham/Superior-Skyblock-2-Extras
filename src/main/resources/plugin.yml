@@ -1,0 +1,9 @@
+name: SS2Extras
+version: '${project.version}'
+main: me.rasmatham.ss2extras.SS2Extras
+api-version: '1.20'
+load: STARTUP
+loadbefore: [SuperiorSkyblock]
+depend: [SuperiorSkyblock]
+authors: [RasMatHam]
+description: Adds more settings to Superior Skyblock 2 islands
