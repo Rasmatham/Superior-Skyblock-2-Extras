@@ -30,7 +30,7 @@ public final class SS2Extras extends JavaPlugin {
         try {
             config.load(configFile);
         } catch (IOException | InvalidConfigurationException e) {
-            e.printStackTrace();
+            getLogger().log(Level.SEVERE, e.toString());
         }
 
         availableIslandSettings = Objects.requireNonNull(config.getConfigurationSection("settings")).getKeys(false);
