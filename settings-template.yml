@@ -1,0 +1,120 @@
+settings:
+  fireball:
+    settings-enabled:
+      type: FIRE_CHARGE
+      name: '&6Fireball'
+      lore:
+        - '&7Allow fireballs to break blocks on your island.'
+        - '&7Offers slightly better protection than &eGhast Fireball&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: FIRE_CHARGE
+      name: '&6Fireball'
+      lore:
+        - '&7Allow fireballs to break blocks on your island.'
+        - '&7Offers slightly better protection than &eGhast Fireball&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  phantom_spawn:
+    settings-enabled:
+      type: PHANTOM_SPAWN_EGG
+      name: '&6Natural Phantom Spawn'
+      lore:
+        - '&7Allow natural spawning of phantoms on your island.'
+        - '&7Only affected if &eNatural Monster Spawn &7is &aENABLED&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: PHANTOM_SPAWN_EGG
+      name: '&6Natural Phantom Spawn'
+      lore:
+        - '&7Allow natural spawning of phantoms on your island.'
+        - '&7Only affected if &eNatural Monster Spawn &7is &aENABLED&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  pillager_patrol:
+    settings-enabled:
+      type: TOTEM_OF_UNDYING
+      name: '&6Pillager Patrol'
+      lore:
+        - '&7Allow Pillager patrols to spawn on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: TOTEM_OF_UNDYING
+      name: '&6Pillager Patrol'
+      lore:
+        - '&7Allow Pillager patrols to spawn on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  portal_spawn:
+    settings-enabled:
+      type: OBSIDIAN
+      name: '&6Nether Portal Spawn'
+      lore:
+        - '&7Allow Zombiefied Piglin to spawn from nether portals on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: OBSIDIAN
+      name: '&6Nether Portal Spawn'
+      lore:
+        - '&7Allow Zombiefied Piglin to spawn from nether portals on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  village_invasion:
+    settings-enabled:
+      type: IRON_SWORD
+      name: '&6Village Invasion'
+      lore:
+        - '&7Allow Zombies to invade villages on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: IRON_SWORD
+      name: '&6Village Invasion'
+      lore:
+        - '&7Allow Zombies to invade villages on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
+
+  village_raid:
+    settings-enabled:
+      type: TOTEM_OF_UNDYING
+      name: '&6Village Raid'
+      lore:
+        - '&7Allow raids to occur on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &aENABLED&7.'
+    settings-disabled:
+      type: TOTEM_OF_UNDYING
+      name: '&6Village Raid'
+      lore:
+        - '&7Allow raids to occur on your island.'
+        - '&7Not affected by &eNatural Monster Spawn&7.'
+        - '&7Currently &cDISABLED&7.'
+    sound:
+      type: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 0.2
+      pitch: 0.2
