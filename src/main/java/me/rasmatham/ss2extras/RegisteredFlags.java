@@ -2,7 +2,6 @@ package me.rasmatham.ss2extras;
 
 import com.bgsoftware.superiorskyblock.api.events.PluginInitializeEvent;
 import com.bgsoftware.superiorskyblock.api.island.IslandFlag;
-import me.rasmatham.ss2extras.SS2Extras;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
